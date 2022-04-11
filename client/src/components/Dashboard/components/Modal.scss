@@ -1,0 +1,23 @@
+.ui.modal.Modal {
+    .header {
+        text-align: center;
+    }
+
+    .content {
+        .ui.input {
+            width: 30em;
+            margin: 2px;
+        }
+
+        .ui.label {
+            width: 100px;
+        }
+    }
+
+    &.EditModal {
+        .content {
+            text-align: center;
+        }
+    }
+    
+}

@@ -1,0 +1,50 @@
+{
+  "name": "mvp-employee-salary-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "semantic-ui-css-patch && webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "postinstall": "semantic-ui-css-patch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@semantic-ui-react/css-patch": "^1.0.0",
+    "axios": "^0.26.1",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "i": "^0.3.7",
+    "install": "^0.13.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "lodash": "^4.17.21",
+    "npm": "^8.6.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-redux": "^7.2.8",
+    "react-scrollbar": "^0.5.6",
+    "react-toastify": "^8.2.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "semantic-ui-less": "^2.4.1",
+    "semantic-ui-react": "^2.1.2",
+    "style-loader": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

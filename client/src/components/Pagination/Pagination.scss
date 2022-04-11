@@ -1,0 +1,93 @@
+.Pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 150px;
+
+  #result-per-page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    div,
+    span {
+      justify-content: flex-start;
+    }
+
+    span {
+      margin: 5px 0 0 5px;
+    }
+
+    select:disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  #result-dropdown {
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 70px;
+    height: auto;
+    background-color: whitesmoke;
+    overflow: hidden;
+
+    select {
+      appearance: none;
+      outline: none;
+      box-shadow: none;
+      background-color: whitesmoke;
+      border: 1px solid #dfdfdf;
+      width: 70px;
+      height: 100%;
+      margin: 0;
+      padding: 0 15px 0 0;
+      color: gray;
+      cursor: pointer;
+      text-align-last: center;
+    }
+
+    &::after {
+      content: '\25bc';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 5px;
+      pointer-events: none;
+      border: 1px solid #dfdfdf;
+    }
+  }
+
+  #result-display-label p {
+    margin: 5px 0;
+  }
+
+  .page-direction {
+    display: flex;
+    justify-items: flex-end;
+    margin: 5px 0 0 0;
+
+    button {
+      justify-content: center;
+      background-color: transparent;
+      border: 0;
+      cursor: pointer;
+      padding: 1px 8px;
+      color: inherit;
+
+      &.number-page.active {
+        border: 1px solid #fc4c02;
+      }
+
+      &:disabled {
+        cursor: not-allowed;
+      }
+    }
+
+    .dotdotdot {
+      padding: 0 0.3em;
+    }
+  }
+}

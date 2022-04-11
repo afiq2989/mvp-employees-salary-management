@@ -1,0 +1,23 @@
+.Search {
+    text-align: right;
+    margin-right: 23px;
+
+    .ui.input {
+        width: 15em;
+        margin: 10px;
+
+        &:first-child {
+            margin-left: 0em;
+        }
+    }
+}
+
+.Dashboard {
+    margin-top: 40px;
+    
+    .ui.table {
+        .right {
+            text-align: right;
+        }
+    }
+}
