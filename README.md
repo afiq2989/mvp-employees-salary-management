@@ -4,8 +4,7 @@ react project with node express API for employee salary management:
 - Salary Filter
 - CSV files upload for new user list
 - Pagination
-
-# MVP Employee Salary Management
+- Sorting
 
 # Steps to install & run react (client) locally
 
